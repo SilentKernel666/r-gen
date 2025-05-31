@@ -1,87 +1,100 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <title>GhostRbx Generator v7.9.0</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Help - GhostRbx Generator</title>
   <style>
     body {
-      margin: 0; padding: 0;
-      font-family: Arial, sans-serif;
-      background-image: url('d66ae37d46e00a1ecacfe9531986690a.jpg');
-      background-size: cover;
-      background-position: center;
-      background-repeat: no-repeat;
-      color: #fff;
-      display: flex; justify-content: center; align-items: center;
-      height: 100vh;
+      margin: 0;
+      padding: 0 20px;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(135deg, #020024, #090979, #00d4ff);
+      color: #e0f7fa;
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
     }
     .container {
-      background-color: rgba(0,0,0,0.75);
-      padding: 40px;
-      border-radius: 20px;
-      text-align: center;
-      max-width: 500px;
-      box-shadow: 0 0 20px rgba(0,0,0,0.5);
+      max-width: 700px;
+      background: rgba(0,0,0,0.75);
+      margin: 40px 0;
+      border-radius: 15px;
+      padding: 30px 40px;
+      box-shadow: 0 0 30px rgba(0, 255, 255, 0.5);
     }
-    .title {
-      font-size: 26px;
+    h1 {
       color: #00ffff;
-      font-weight: bold;
-      margin-bottom: 20px;
+      text-align: center;
+      margin-bottom: 30px;
+      font-weight: 700;
+      letter-spacing: 1px;
     }
-    .description {
+    p {
       font-size: 16px;
+      line-height: 1.6;
       margin-bottom: 20px;
     }
-    .button {
+    ul {
+      margin-left: 20px;
+      margin-bottom: 30px;
+    }
+    ul li {
+      margin-bottom: 12px;
+      font-size: 15px;
+    }
+    strong {
+      color: #00ffff;
+    }
+    a.button {
+      display: inline-block;
       background-color: #00ffff;
       color: #000;
-      padding: 12px 30px;
-      border: none;
+      padding: 12px 25px;
       border-radius: 30px;
-      font-size: 16px;
       font-weight: bold;
-      cursor: pointer;
-      transition: background-color 0.3s ease;
       text-decoration: none;
-      display: inline-block;
-      margin: 10px 5px;
+      transition: background-color 0.3s ease;
+      margin-top: 10px;
     }
-    .button:hover {
+    a.button:hover {
       background-color: #00cccc;
     }
-    .help-text {
-      font-size: 14px;
-      color: #eee;
-      margin-top: 25px;
-      line-height: 1.5;
-      text-align: left;
+    @media (max-width: 480px) {
+      .container {
+        padding: 20px 15px;
+      }
+      p, ul li {
+        font-size: 14px;
+      }
+      a.button {
+        padding: 10px 20px;
+        font-size: 14px;
+      }
     }
   </style>
 </head>
 <body>
   <div class="container">
-    <div class="title">GhostRbx Generator v7.9.0</div>
-    <div class="description">
-      Outil avancé de génération de Robux.<br />
-      Compatible Windows 10 / 11.
-    </div>
-    <div class="description">
-      Cliquez ci-dessous pour télécharger l'application.
-    </div>
-    <a href="https://gofile.io/d/b453IG" target="_blank" class="button">⬇️ Télécharger maintenant</a>
-    <a href="index2.html" class="button">❓ Aide</a>
-    <div class="help-text">
-      <strong>Comment bien utiliser ce site :</strong><br />
-      1. Cliquez sur "Télécharger maintenant" pour accéder à la page de téléchargement.<br />
-      2. Sur GoFile, cliquez sur le bouton de téléchargement pour récupérer le fichier.<br />
-      3. Ouvrez le fichier téléchargé (dézippez si nécessaire).<br />
-      4. Lancez l'application, acceptez les avertissements Windows si besoin.<br />
-      5. Suivez les instructions dans l'application.<br />
-      <br />
-      ⚠️ Ne partagez jamais vos identifiants Roblox.<br />
-      📩 Pour plus d’aide, cliquez sur le bouton "Aide".
-    </div>
+    <h1>Help & User Guide</h1>
+    <p>Welcome to the <strong>GhostRbx Generator v7.9.0</strong> help page. Here are some tips to properly use our tool:</p>
+    
+    <ul>
+      <li><strong>Download:</strong> Click the "Download Now" button on the main page. You will be redirected to GoFile where you can get the file.</li>
+      <li><strong>Compressed files:</strong> If the downloaded file is a <code>.zip</code>, right-click it and select <em>"Extract All"</em> before running the application.</li>
+      <li><strong>Running the app:</strong> Double-click the executable file (<code>.exe</code>). If Windows shows a security warning, click <em>"More info"</em> then <em>"Run anyway"</em>.</li>
+      <li><strong>Instructions:</strong> Follow the instructions in the app to generate your Robux.</li>
+    </ul>
+
+    <p><strong>Important:</strong></p>
+    <ul>
+      <li>The software only works on <strong>Windows 10 and Windows 11</strong>.</li>
+      <li><strong>Never share your Roblox credentials</strong> with anyone. This program never asks for your passwords.</li>
+      <li>If you encounter any issue, try again later or contact us via the support form.</li>
+    </ul>
+
+    <a href="https://silentkernel666.github.io/r-gen/" class="button">← Back to Main Page</a>
   </div>
 </body>
 </html>
